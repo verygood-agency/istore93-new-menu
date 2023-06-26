@@ -154,6 +154,13 @@ body {
     pointer-events: initial !important;
     visibility: initial !important;
   }
+  .cust-header-call:hover .cust-header-search__body,
+  .cust-header-call:focus .cust-header-search__body,
+  .cust-header-call:active .cust-header-search__body {
+    opacity: 1 !important;
+    pointer-events: initial !important;
+    visibility: initial !important;
+  }
 }
 @media (max-width: 1400px) {
   .header--top .menu {
